@@ -26,7 +26,8 @@ See scripts in the python subdirectory for examples of dealing with LACS input a
 '%4.0f      %3.0f      %7.2f      %7.2f      %7.2f      %7.2f     %7.2f     %7.2f  %7.2f'
 seq_No      resid      CA         CB         HA         C         H         N      pH
 ```
-CS values except for GLY "HA" is (HA2 + HA3)/2. For everything else it's HA. Use `-100.0` for missing values.
+`CA`..`N` are CS values for corresp. atoms except for GLY "HA" is (HA2 + HA3)/2. 
+Use `-100.0` for missing values.
 
 `resid` is from the lookup table:
 ```
@@ -63,3 +64,5 @@ CS values except for GLY "HA" is (HA2 + HA3)/2. For everything else it's HA. Use
 OFFATOMS:     CA    CB    HA     C     H     N
 OFFVALUES:  0.25  0.25 -----  0.95 -0.06 -0.62
 ```
+
+See `example.svg`: 
