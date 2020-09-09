@@ -3,6 +3,9 @@
 Liya Wang's (wangli@cshl.edu) code from 2012-11-30
 with a few bits of python added.
 
+PubMed ID: 19436955
+doi: 10.1007/s10858-009-9324-0
+
 Tested on matlab 2011b linux x86_64 (centos 5).
 
 Initial version: 
