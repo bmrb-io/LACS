@@ -65,4 +65,6 @@ OFFATOMS:     CA    CB    HA     C     H     N
 OFFVALUES:  0.25  0.25 -----  0.95 -0.06 -0.62
 ```
 
-See `example.svg`: 
+See `example.svg`: rows with `lacs codes` 2 and 3 are used to draw the cyan "midlines",
+rows with code 1: to draw the "normal" values in blue, and code 0: the outlier in red. 
+Sample drawing code is in `python/lacs2svg_pychart.py`
